@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-22T13:30:03Z" name="Suite" finished-at="2021-05-22T13:32:19Z" duration-ms="135903">
+    <groups>
+    </groups>
+    <test started-at="2021-05-22T13:30:03Z" name="ChromeTest" finished-at="2021-05-22T13:31:03Z" duration-ms="60446">
+      <class name="testcases.RegressionTest">
+        <test-method signature="launchURL(java.lang.String)[pri:0, instance:testcases.RegressionTest@5677323c]" started-at="2021-05-22T13:30:03Z" name="launchURL" finished-at="2021-05-22T13:30:22Z" duration-ms="19316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testcases.RegressionTest@5677323c]" started-at="2021-05-22T13:30:22Z" name="afterTest" finished-at="2021-05-22T13:30:22Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method signature="upBikes()[pri:1, instance:testcases.RegressionTest@5677323c]" started-at="2021-05-22T13:30:22Z" name="upBikes" finished-at="2021-05-22T13:30:38Z" duration-ms="15681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upBikes -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testcases.RegressionTest@5677323c]" started-at="2021-05-22T13:30:38Z" name="afterTest" finished-at="2021-05-22T13:30:38Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method signature="usedCars()[pri:2, instance:testcases.RegressionTest@5677323c]" started-at="2021-05-22T13:30:38Z" name="usedCars" finished-at="2021-05-22T13:30:53Z" duration-ms="15703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usedCars -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testcases.RegressionTest@5677323c]" started-at="2021-05-22T13:30:53Z" name="afterTest" finished-at="2021-05-22T13:30:53Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method signature="googleSignIn()[pri:3, instance:testcases.RegressionTest@5677323c]" started-at="2021-05-22T13:30:53Z" name="googleSignIn" finished-at="2021-05-22T13:31:02Z" duration-ms="8187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSignIn -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testcases.RegressionTest@5677323c]" started-at="2021-05-22T13:31:02Z" name="afterTest" finished-at="2021-05-22T13:31:02Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.RegressionTest@5677323c]" started-at="2021-05-22T13:31:02Z" name="quitBrowser" finished-at="2021-05-22T13:31:03Z" duration-ms="1522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testcases.RegressionTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2021-05-22T13:31:03Z" name="EdgeTest" finished-at="2021-05-22T13:32:19Z" duration-ms="75403">
+      <class name="testcases.RegressionTest">
+        <test-method signature="launchURL(java.lang.String)[pri:0, instance:testcases.RegressionTest@46cdf8bd]" started-at="2021-05-22T13:31:03Z" name="launchURL" finished-at="2021-05-22T13:31:32Z" duration-ms="29303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MicrosoftEdge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testcases.RegressionTest@46cdf8bd]" started-at="2021-05-22T13:31:32Z" name="afterTest" finished-at="2021-05-22T13:31:32Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method signature="upBikes()[pri:1, instance:testcases.RegressionTest@46cdf8bd]" started-at="2021-05-22T13:31:32Z" name="upBikes" finished-at="2021-05-22T13:31:47Z" duration-ms="14946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upBikes -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testcases.RegressionTest@46cdf8bd]" started-at="2021-05-22T13:31:47Z" name="afterTest" finished-at="2021-05-22T13:31:47Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method signature="usedCars()[pri:2, instance:testcases.RegressionTest@46cdf8bd]" started-at="2021-05-22T13:31:47Z" name="usedCars" finished-at="2021-05-22T13:32:07Z" duration-ms="19311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usedCars -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testcases.RegressionTest@46cdf8bd]" started-at="2021-05-22T13:32:07Z" name="afterTest" finished-at="2021-05-22T13:32:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method signature="googleSignIn()[pri:3, instance:testcases.RegressionTest@46cdf8bd]" started-at="2021-05-22T13:32:07Z" name="googleSignIn" finished-at="2021-05-22T13:32:17Z" duration-ms="10237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSignIn -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testcases.RegressionTest@46cdf8bd]" started-at="2021-05-22T13:32:17Z" name="afterTest" finished-at="2021-05-22T13:32:17Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.RegressionTest@46cdf8bd]" started-at="2021-05-22T13:32:17Z" name="quitBrowser" finished-at="2021-05-22T13:32:19Z" duration-ms="1594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:testcases.RegressionTest@46cdf8bd]" started-at="2021-05-22T13:32:19Z" name="endReport" finished-at="2021-05-22T13:32:19Z" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testcases.RegressionTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
